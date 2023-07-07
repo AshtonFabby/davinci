@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
         <div className="links flex flex-col lg:flex-row gap-3 ">
           <Link href={"/"}>INÍCIO</Link>
-          <Link href={"/"}>SOBRE NÓS</Link>
+          <Link href={"/about"}>SOBRE NÓS</Link>
           <Link href={"/"}>SECRETARIA</Link>
           <Link href={"/"}>OFERTA EDUCATIVA</Link>
           <Link href={"/"}>INFORMAÇÕES</Link>

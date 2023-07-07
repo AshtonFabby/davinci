@@ -74,7 +74,7 @@ const NavBar = () => {
       </nav>
 
       <nav className="hidden container lg:block">
-        <div className="flex justify-between items-center mt-10 mb-8">
+        <div className="flex justify-between items-center mt-6 mb-6">
           <div className="flex gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -140,12 +140,15 @@ const NavBar = () => {
             </button>
           </div>
         </div>
-        <hr className="mb-6" />
+        <hr className="mb-3" />
         <div className="flex gap-6 justify-center">
           <Link className="hover:text-gold ease-in-out duration-300" href="/">
             INÍCIO
           </Link>
-          <Link className="hover:text-gold ease-in-out duration-300" href="/">
+          <Link
+            className="hover:text-gold ease-in-out duration-300"
+            href="/about"
+          >
             SOBRE NÓS
           </Link>
           <Link className="hover:text-gold ease-in-out duration-300" href="/">
