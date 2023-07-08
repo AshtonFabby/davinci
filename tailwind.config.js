@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         gold: "#CCB569",
         maroon: "#6e0023",
+        royalblue: "#1429A9",
       },
     },
   },
