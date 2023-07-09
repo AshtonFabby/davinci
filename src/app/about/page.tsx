@@ -1,5 +1,6 @@
 import Image from "next/image";
 import NumberBoxes from "../components/number_boxes";
+import Slides from "../components/slides";
 
 const About = () => {
   return (
@@ -167,7 +168,7 @@ const About = () => {
             viewBox="0 0 60 60"
             fill="none"
           >
-            <g clip-path="url(#clip0_856_81)">
+            <g clipPath="url(#clip0_856_81)">
               <path
                 d="M52.5 7.5V12.5C52.5 22.165 44.665 30 35 30H32.5V32.5H45V50C45 52.7625 42.7625 55 40 55H20C17.2375 55 15 52.7625 15 50V32.5H27.5V25C27.5 15.335 35.335 7.5 45 7.5H52.5ZM13.75 5C20.0725 5 25.6625 8.1275 29.06 12.9225C26.51 16.275 25 20.4625 25 25V27.5H23.75C13.395 27.5 5 19.105 5 8.75V5H13.75Z"
                 fill="#E5F4F1"
@@ -354,6 +355,97 @@ const About = () => {
               </p>
               <p className=" text-sm italic"> -Person Name </p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className=" mt-20 container">
+        <p>
+          O nosso sucesso nao e sorte! E fruto do arduo trabalho de guerreiros,
+          que levam o projecto nas costas porque acreditam que podemos sempre
+          fazer melhor! <br /> <br />
+          Temos uma equipe apaixonada e dedicada, pronta para oferecer uma
+          educação de qualidade e apoiar o desenvolvimento integral de cada
+          aluno. Nossa equipe é composta por educadores experientes,
+          comprometidos em proporcionar um ambiente de aprendizagem seguro,
+          acolhedor e estimulante. Estamos empenhados em ajudar os alunos a
+          atingir seu pleno potencial acadêmico, desenvolver habilidades sociais
+          e emocionais, e se preparar para um futuro promissor. Conheça os
+          membros da nossa equipe e saiba mais sobre suas qualificações,
+          experiências e paixões pela educação. Estamos ansiosos para trabalhar
+          em parceria com você para o sucesso de seu filho!
+        </p>
+        <h3 className=" font-semibold text-2xl text-right mt-5">
+          A Nossa Equipe
+        </h3>
+      </div>
+      <div className="slides container mt-20">
+        <Slides />
+      </div>
+      <div className="text container mt-20">
+        O nosso colégio tem como prioridade efectuar parcerias nacionais e
+        internacionais, visando proporcionar aos alunos, um elevado domínio da
+        língua inglesa. Assim, serão estabelecidas parcerias com escolas de
+        Inglês, no Reino Unido e nos EUA, no sentido de realizarmos escolas de
+        Férias de Língua Inglesa, ao nível nacional e internacional. Após a
+        conclusão do II Ciclo, o Colégio, pretende tornar, mais simples e menos
+        complexo, o processo de acesso dos alunos as universidades nacionais e
+        internacionais, estabelecendo parcerias com universidades nacionais e
+        estrangeiras.
+      </div>
+      <div className="certs mt-20 container">
+        <h2 className=" text-center font-semibold text-3xl">Parceiros</h2>
+        <div className="left">
+          <h3 className="font-medium text-xl mt-10">
+            Aprovado e Certificado por
+          </h3>
+          <div className="logos grid grid-cols-2 md:grid-cols-3 gap-4 items-center justify-center">
+            <Image
+              src="/images/cambridge.png"
+              alt="cambridge logo"
+              width={153}
+              height={85}
+              className="w-[153] h-[85] object-contain"
+            />
+            <Image
+              src="/images/angola2.png"
+              alt="angola logo"
+              width={153}
+              height={85}
+              className="w-[153] h-[85] object-contain"
+            />
+            <Image
+              src="/images/INEFOP.jpg"
+              alt="INEFOP logo"
+              width={153}
+              height={46}
+              className="w-[153] h-[85] object-contain"
+            />
+          </div>
+        </div>
+        <div className="left">
+          <h3 className="font-medium text-xl mt-10">Em colaboração com</h3>
+          <div className="logos grid grid-cols-2 md:grid-cols-3 gap-4 items-center justify-center">
+            <Image
+              src="/images/cambridge.png"
+              alt="cambridge logo"
+              width={153}
+              height={85}
+              className="w-[153] h-[85] object-contain"
+            />
+            <Image
+              src="/images/angola2.png"
+              alt="angola logo"
+              width={153}
+              height={85}
+              className="w-[153] h-[85] object-contain"
+            />
+            <Image
+              src="/images/INEFOP.jpg"
+              alt="INEFOP logo"
+              width={153}
+              height={46}
+              className="w-[153] h-[85] object-contain"
+            />
           </div>
         </div>
       </div>

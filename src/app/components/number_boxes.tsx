@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-type NumberBoxesProps = {
+export type NumberBoxesProps = {
   title: string;
   imagaUrl: string;
   description: string;
